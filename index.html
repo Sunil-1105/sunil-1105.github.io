@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunil S — Logistics &amp; Supply Chain Professional</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+  :root{
+    --bg: #0a0e1a;
+    --surface: #121826;
+    --surface-2: #1a2233;
+    --line: #26314a;
+    --text: #e7eaf1;
+    --muted: #8b93a7;
+    --accent: #2f6fed;
+    --accent-2: #e8b34c;
+    --mono: 'IBM Plex Mono', monospace;
+    --display: 'Space Grotesk', sans-serif;
+    --body: 'Inter', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:var(--body); line-height:1.6;
+    background-image:
+      radial-gradient(circle at 85% -10%, rgba(47,111,237,.16), transparent 45%),
+      radial-gradient(circle at 0% 100%, rgba(232,179,76,.08), transparent 40%);
+  }
+  a{color:inherit;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 28px;}
+  header.nav{
+    position:sticky; top:0; z-index:20;
+    backdrop-filter: blur(10px);
+    background:rgba(10,14,26,.75);
+    border-bottom:1px solid var(--line);
+  }
+  .navrow{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
+  .brand{display:flex; align-items:center; gap:10px; font-family:var(--display); font-weight:700; letter-spacing:.02em;}
+  .brand-mark{
+    width:34px; height:34px; border-radius:8px; overflow:hidden;
+    border:1px solid var(--line);
+  }
+  .brand-mark img{width:100%; height:100%; object-fit:cover; display:block;}
+  nav ul{list-style:none; display:flex; gap:26px; margin:0; padding:0; font-size:14px; color:var(--muted);}
+  nav a:hover{color:var(--accent);}
+  .badge{
+    display:inline-flex; align-items:center; gap:8px;
+    font-family:var(--mono); font-size:12px; letter-spacing:.05em; text-transform:uppercase;
+    color:var(--accent-2); border:1px solid rgba(232,179,76,.35); background:rgba(232,179,76,.06);
+    padding:6px 12px; border-radius:999px;
+  }
+  .dot{width:6px; height:6px; border-radius:50%; background:var(--accent-2); box-shadow:0 0 8px var(--accent-2);}
+
+  /* HERO */
+  .hero{padding:64px 0 40px;}
+  .hero-grid{display:grid; grid-template-columns: 1.3fr .7fr; gap:48px; align-items:center;}
+  .eyebrow{color:var(--accent); font-family:var(--mono); font-size:13px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:14px;}
+  h1.name{
+    font-family:var(--display); font-size:56px; font-weight:700; line-height:1.05; margin:0 0 14px;
+  }
+  h1.name em{font-style:normal; color:var(--accent);}
+  .role{font-size:19px; color:var(--muted); margin:0 0 20px; max-width:560px;}
+  .cta-row{display:flex; gap:14px; margin-top:26px; flex-wrap:wrap;}
+  .btn{
+    font-family:var(--body); font-weight:600; font-size:14px; padding:12px 22px; border-radius:8px;
+    text-decoration:none; display:inline-block; transition:all .15s ease;
+  }
+  .btn-primary{background:var(--accent); color:#fff;}
+  .btn-primary:hover{background:#4b83f2;}
+  .btn-ghost{border:1px solid var(--line); color:var(--text);}
+  .btn-ghost:hover{border-color:var(--accent);}
+  .photo-frame{
+    position:relative; border-radius:16px; overflow:hidden; border:1px solid var(--line);
+    background:var(--surface); aspect-ratio: 4/5;
+  }
+  .photo-frame img{width:100%; height:100%; object-fit:cover; display:block;}
+  .photo-tag{
+    position:absolute; bottom:12px; left:12px; right:12px;
+    background:rgba(10,14,26,.75); backdrop-filter: blur(6px);
+    border:1px solid var(--line); border-radius:8px;
+    padding:8px 12px; font-family:var(--mono); font-size:11px; color:var(--accent-2);
+    letter-spacing:.05em; text-transform:uppercase;
+  }
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-top:44px;}
+  .stat{background:var(--surface); padding:22px 20px;}
+  .stat .num{font-family:var(--display); font-size:30px; font-weight:700; color:var(--accent-2);}
+  .stat .lbl{font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.05em; margin-top:4px;}
+
+  section{padding:64px 0;}
+  .section-head{margin-bottom:36px;}
+  .section-head .eyebrow{margin-bottom:8px;}
+  h2{font-family:var(--display); font-size:32px; margin:0;}
+  h2 em{font-style:normal; color:var(--accent);}
+
+  /* TIMELINE */
+  .timeline{position:relative; padding-left:28px; border-left:1px solid var(--line);}
+  .role-card{position:relative; margin-bottom:44px;}
+  .role-card::before{
+    content:''; position:absolute; left:-33px; top:6px; width:10px; height:10px; border-radius:50%;
+    background:var(--accent); box-shadow:0 0 0 4px rgba(47,111,237,.18);
+  }
+  .role-meta{font-family:var(--mono); font-size:12.5px; color:var(--accent-2); text-transform:uppercase; letter-spacing:.05em;}
+  .role-title{font-family:var(--display); font-size:20px; font-weight:600; margin:6px 0 2px;}
+  .role-org{color:var(--muted); font-size:14.5px; margin-bottom:14px;}
+  .role-card ul{margin:0 0 14px; padding-left:18px; color:#c7cddb; font-size:14.5px;}
+  .role-card li{margin-bottom:7px;}
+  .tags{display:flex; flex-wrap:wrap; gap:8px;}
+  .tag{font-size:11.5px; font-family:var(--mono); color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:4px 10px;}
+
+  /* SKILLS */
+  .skills-grid{display:grid; grid-template-columns:1fr 1fr; gap:40px;}
+  .skill-row{margin-bottom:16px;}
+  .skill-row .top{display:flex; justify-content:space-between; font-size:14px; margin-bottom:6px;}
+  .bar{height:6px; border-radius:4px; background:var(--surface-2); overflow:hidden;}
+  .bar-fill{height:100%; background:linear-gradient(90deg, var(--accent), var(--accent-2));}
+  .chip-cloud{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px;}
+  .chip{font-size:12.5px; background:var(--surface); border:1px solid var(--line); padding:6px 12px; border-radius:8px; color:#c7cddb;}
+
+  /* CERTS + ACHIEVEMENT */
+  .cert-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-bottom:40px;}
+  .cert-card{background:var(--surface); border:1px solid var(--line); border-radius:12px; padding:22px;}
+  .cert-card .ic{font-size:22px;}
+  .cert-card h3{font-family:var(--display); font-size:16px; margin:12px 0 6px;}
+  .cert-card p{font-size:13.5px; color:var(--muted); margin:0;}
+
+  .achievement{
+    display:grid; grid-template-columns: .9fr 1.1fr; gap:0; background:var(--surface);
+    border:1px solid var(--line); border-radius:16px; overflow:hidden;
+  }
+  .achievement img{width:100%; height:100%; object-fit:cover; display:block; border-right:1px solid var(--line);}
+  .achievement-body{padding:32px;}
+  .achievement-body .eyebrow{margin-bottom:10px;}
+  .achievement-body h3{font-family:var(--display); font-size:22px; margin:0 0 10px;}
+  .achievement-body p{color:#c7cddb; font-size:14.5px;}
+
+  /* RESUME / QR */
+  .resume-card{
+    display:grid; grid-template-columns: 1fr auto; gap:32px; align-items:center;
+    background:linear-gradient(135deg, var(--surface), var(--surface-2));
+    border:1px solid var(--line); border-radius:16px; padding:36px;
+  }
+  .resume-card h3{font-family:var(--display); font-size:22px; margin:0 0 8px;}
+  .resume-card p{color:var(--muted); font-size:14.5px; max-width:440px; margin:0 0 18px;}
+  .qr-box{
+    background:#fff; padding:14px; border-radius:12px; display:flex; flex-direction:column; align-items:center; gap:8px;
+  }
+  .qr-box span{font-family:var(--mono); font-size:10.5px; color:#0a0e1a; text-transform:uppercase; letter-spacing:.05em;}
+  #qrcode{width:120px; height:120px;}
+
+  footer{border-top:1px solid var(--line); padding:40px 0; text-align:center;}
+  footer h2{margin-bottom:10px;}
+  footer p{color:var(--muted); max-width:520px; margin:0 auto 22px; font-size:14.5px;}
+  .contact-row{display:flex; gap:22px; justify-content:center; flex-wrap:wrap; font-size:14.5px; margin-bottom:26px;}
+  .copyright{font-size:12.5px; color:var(--muted); margin-top:30px;}
+
+  @media (max-width: 800px){
+    .hero-grid{grid-template-columns:1fr;}
+    .photo-frame{max-width:280px; margin:0 auto;}
+    h1.name{font-size:38px;}
+    .achievement{grid-template-columns:1fr;}
+    .achievement img{border-right:none; border-bottom:1px solid var(--line); max-height:260px;}
+    .skills-grid{grid-template-columns:1fr;}
+    .cert-grid{grid-template-columns:1fr;}
+    .resume-card{grid-template-columns:1fr; text-align:center;}
+    .qr-box{margin:0 auto;}
+    nav ul{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap navrow">
+    <div class="brand">
+      <div class="brand-mark"><img src="profile.jpg" alt="Sunil S"></div>
+      SS
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="badge"><span class="dot"></span>Available for Opportunities</span>
+        <h1 class="name" style="margin-top:22px;">Sunil <em>S</em></h1>
+        <p class="role">Senior Logistics &amp; Supply Chain Professional · UAE</p>
+        <p class="role">Six years of end-to-end supply chain expertise across aviation, freight forwarding, and cargo operations. I turn complex logistics challenges into streamlined, compliant, and cost-efficient systems — from warehouse floor to boardroom dashboard.</p>
+        <div class="cta-row">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#experience" class="btn btn-ghost">View Experience</a>
+          <a href="#resume" class="btn btn-ghost">Scan for Resume</a>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <img src="profile.jpg" alt="Sunil S — Portrait">
+        <div class="photo-tag">Dubai, UAE · Aviation &amp; Cargo Logistics</div>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="num">6+</div><div class="lbl">Years Experience</div></div>
+      <div class="stat"><div class="num">3</div><div class="lbl">Major Companies</div></div>
+      <div class="stat"><div class="num">100%</div><div class="lbl">Customs Compliance</div></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head">
+      <div class="eyebrow">Career Timeline</div>
+      <h2>Professional <em>Experience</em></h2>
+    </div>
+    <div class="timeline">
+      <div class="role-card">
+        <div class="role-meta">2025 – Present · Airbus, Logistics Division</div>
+        <div class="role-title">Account Handler — Team Leader</div>
+        <div class="role-org">Dubai, UAE</div>
+        <ul>
+          <li>Audited international trade documents to achieve 100% customs compliance, eliminating clearance delays across global workflows.</li>
+          <li>Led warehouse briefings on safety and workflow optimization — zero recorded safety incidents throughout tenure.</li>
+          <li>Deployed SAP WMS to maintain real-time inventory accuracy, removing stock discrepancies that had caused operational bottlenecks.</li>
+          <li>Built SQCDP dashboards and monthly KPI reports presented directly to senior client stakeholders.</li>
+          <li>Established new dispatch locations across the UAE, reducing average lead times for time-critical aerospace components.</li>
+          <li>Executed QC processes aligned with EASA requirements, achieving zero dispatch errors on export shipments.</li>
+          <li>Received an Airbus Certificate of Appreciation for outstanding dedication and commitment to operational excellence.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">SAP WMS</span><span class="tag">EASA Compliance</span><span class="tag">SQCDP Dashboards</span><span class="tag">Team Leadership</span><span class="tag">SOP Development</span>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div class="role-meta">2022 – 2025 · Bolloré Logistics LLC</div>
+        <div class="role-title">Logistics Coordinator</div>
+        <div class="role-org">Dubai, UAE</div>
+        <ul>
+          <li>Streamlined international documentation processes, improving cross-border shipment efficiency and ensuring full regulatory compliance.</li>
+          <li>Managed customs clearance workflows through meticulous document preparation, minimizing risk and delays on all shipments.</li>
+          <li>Produced monthly KPI performance reports giving clients clear visibility into service metrics and improvement trends.</li>
+          <li>Coordinated local transportation across the UAE, ensuring reliable delivery timelines across a high-volume portfolio.</li>
+          <li>Managed end-to-end monthly billing cycles with 100% accuracy across all client accounts.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Customs Clearance</span><span class="tag">KPI Reporting</span><span class="tag">Transport Coordination</span><span class="tag">Billing Management</span>
+        </div>
+      </div>
+
+      <div class="role-card">
+        <div class="role-meta">2021 · Dnata</div>
+        <div class="role-title">Cargo Agent</div>
+        <div class="role-org">Dubai, UAE</div>
+        <ul>
+          <li>Supervised cargo build-up and breakdown for freight and passenger aircraft in strict compliance with load plans and safety regulations.</li>
+          <li>Conducted precise cargo inspections and escalated irregularities rapidly, protecting cargo integrity on every shift.</li>
+          <li>Utilized GOP/ALS handling technology to improve operational throughput and reduce ground turnaround times.</li>
+          <li>Maintained real-time manifest records via Handheld Devices, supporting full end-to-end cargo traceability.</li>
+        </ul>
+        <div class="tags">
+          <span class="tag">Air Cargo</span><span class="tag">GOP/ALS Technology</span><span class="tag">Cargo Inspection</span><span class="tag">Airside Operations</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head">
+      <div class="eyebrow">Capabilities</div>
+      <h2>Skills &amp; <em>Expertise</em></h2>
+    </div>
+    <div class="skills-grid">
+      <div>
+        <h3 style="font-family:var(--display); font-size:16px; color:var(--muted); margin-bottom:16px;">Operations</h3>
+        <div class="skill-row"><div class="top"><span>Supply Chain Management</span><span>95%</span></div><div class="bar"><div class="bar-fill" style="width:95%"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Inventory Control</span><span>92%</span></div><div class="bar"><div class="bar-fill" style="width:92%"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Warehouse Management</span><span>90%</span></div><div class="bar"><div class="bar-fill" style="width:90%"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Transport Coordination</span><span>88%</span></div><div class="bar"><div class="bar-fill" style="width:88%"></div></div></div>
+
+        <h3 style="font-family:var(--display); font-size:16px; color:var(--muted); margin:26px 0 16px;">Leadership &amp; Compliance</h3>
+        <div class="skill-row"><div class="top"><span>Team Management</span><span>88%</span></div><div class="bar"><div class="bar-fill" style="width:88%"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Customs &amp; Trade Compliance</span><span>95%</span></div><div class="bar"><div class="bar-fill" style="width:95%"></div></div></div>
+        <div class="skill-row"><div class="top"><span>KPI Reporting &amp; Analytics</span><span>85%</span></div><div class="bar"><div class="bar-fill" style="width:85%"></div></div></div>
+      </div>
+      <div>
+        <h3 style="font-family:var(--display); font-size:16px; color:var(--muted); margin-bottom:16px;">Technology Stack</h3>
+        <div class="chip-cloud">
+          <span class="chip">SAP ERP / WMS</span><span class="chip">Oracle</span><span class="chip">Manhattan Classic</span><span class="chip">Manhattan Square</span><span class="chip">TMW TMS</span><span class="chip">Excel</span><span class="chip">Word</span><span class="chip">PowerPoint</span><span class="chip">Google Sheets</span><span class="chip">Google Docs</span><span class="chip">GOP/ALS</span><span class="chip">HHD Systems</span>
+        </div>
+        <h3 style="font-family:var(--display); font-size:16px; color:var(--muted); margin:26px 0 16px;">Domain Knowledge</h3>
+        <div class="chip-cloud">
+          <span class="chip">Aviation Logistics</span><span class="chip">EASA Regulations</span><span class="chip">IATA DGR</span><span class="chip">Air Cargo</span><span class="chip">Freight Forwarding</span><span class="chip">Ramp Handling</span><span class="chip">5S Methodology</span><span class="chip">FOD Control</span><span class="chip">Airside Safety</span><span class="chip">CPKD Operations</span><span class="chip">Quality Control</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="section-head">
+      <div class="eyebrow">Credentials</div>
+      <h2>Certifications &amp; <em>Training</em></h2>
+    </div>
+    <div class="cert-grid">
+      <div class="cert-card"><div class="ic">✈️</div><h3>IATA Dangerous Goods Regulations</h3><p>CBTA 4.1.D certified in safe handling, documentation, and full compliance procedures for dangerous goods in air transport.</p></div>
+      <div class="cert-card"><div class="ic">🏭</div><h3>5S Methodology &amp; FOD Control</h3><p>Trained to implement 5S workplace organisation and Foreign Object Debris control, maintaining safety and hazard-free environments.</p></div>
+      <div class="cert-card"><div class="ic">🛡️</div><h3>Airside Safety Training</h3><p>Completed operational safety protocols and risk prevention procedures for airside environments at international airports.</p></div>
+      <div class="cert-card"><div class="ic">📦</div><h3>Air Cargo Special Loading &amp; Ramp Handling</h3><p>Certified in special loading procedures, ramp handling operations, and CPKD cargo operations through dedicated aviation training.</p></div>
+    </div>
+
+    <div class="achievement">
+      <img src="certificate.jpg" alt="Airbus Certificate of Appreciation — Sunil Sekar">
+      <div class="achievement-body">
+        <div class="eyebrow">Award &amp; Recognition</div>
+        <h3>Airbus Certificate of Appreciation</h3>
+        <p>Presented in recognition of outstanding dedication, hard work, and continuous commitment to operational excellence — awarded for consistent contribution to Airbus's aviation logistics operations in Dubai.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="section-head">
+      <div class="eyebrow">Take It With You</div>
+      <h2>Scan for <em>Full Résumé</em></h2>
+    </div>
+    <div class="resume-card">
+      <div>
+        <h3>Download the complete résumé</h3>
+        <p>Scan the code with your phone camera, or use the button, to open a full PDF copy of my résumé — experience, certifications, and contact details in one file.</p>
+        <a href="resume.pdf" class="btn btn-primary" download>Download PDF</a>
+      </div>
+      <div class="qr-box">
+        <div id="qrcode"></div>
+        <span>Scan Me</span>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="eyebrow" style="justify-content:center; display:flex;">Let's Connect</div>
+    <h2>Ready to move <em>things forward?</em></h2>
+    <p>Open to senior logistics, supply chain, and operations roles across the UAE and GCC. I bring precision, leadership, and a genuine passion for making complex supply chains run smoothly.</p>
+    <div class="contact-row">
+      <a href="mailto:muthusunilmech@gmail.com">muthusunilmech@gmail.com</a>
+      <a href="tel:+971526883564">+971-52-688-3564</a>
+      <a href="https://www.linkedin.com/in/sunil-sekar-b5114a221" target="_blank">LinkedIn</a>
+    </div>
+    <div class="copyright">© 2026 Sunil S — Logistics &amp; Supply Chain Professional · Dubai, UAE 🇦🇪</div>
+  </div>
+</footer>
+
+<script>
+  new QRCode(document.getElementById("qrcode"), {
+    text: "https://sunil-1105.github.io/resume.pdf",
+    width: 120,
+    height: 120,
+    colorDark: "#0a0e1a",
+    colorLight: "#ffffff"
+  });
+</script>
+</body>
+</html>
