@@ -1,0 +1,121 @@
+SKU,Description,Category,Location,System Qty,Physical Qty,Unit Cost (AED),System Value (AED),Physical Value (AED),Variance Qty,Abs Variance,Accuracy %,Aging (Days),Status,Root Cause,Cycle Count Status,Last Count Date
+SKU-0001,Connector,Electrical,WH-C02,150,150,125.49,18823.5,18823.5,0,0,1.0,31,Accurate,No Variance,Completed,2026-06-05
+SKU-0002,Torque Wrench,Tools,WH-A01,57,57,433.51,24710.07,24710.07,0,0,1.0,11,Accurate,No Variance,Completed,2026-07-07
+SKU-0003,Safety Vest,Safety,WH-A02,239,239,689.54,164800.06,164800.06,0,0,1.0,6,Accurate,No Variance,Completed,2026-07-02
+SKU-0004,Hand Tool Set,Tools,WH-B01,89,89,650.86,57926.54,57926.54,0,0,1.0,31,Accurate,No Variance,Completed,2026-04-12
+SKU-0005,Relay,Electrical,WH-B01,319,319,44.59,14224.21,14224.21,0,0,1.0,122,Accurate,No Variance,Completed,2026-04-11
+SKU-0006,Terminal Block,Electrical,WH-B01,434,434,753.55,327040.7,327040.7,0,0,1.0,97,Accurate,No Variance,Completed,2026-07-04
+SKU-0007,Connector,Electrical,WH-C02,126,124,728.18,91750.68,90294.32,-2,2,0.9841,30,Shortage,Damaged Stock,Completed,2026-05-01
+SKU-0008,Adhesive,Consumables,WH-B01,191,191,232.8,44464.8,44464.8,0,0,1.0,179,Accurate,No Variance,Completed,2026-06-09
+SKU-0009,Gear,Mechanical,WH-C02,135,135,327.5,44212.5,44212.5,0,0,1.0,168,Accurate,No Variance,Completed,2026-06-29
+SKU-0010,Cleaning Kit,Consumables,WH-A02,430,430,273.61,117652.3,117652.3,0,0,1.0,73,Accurate,No Variance,Completed,2026-02-28
+SKU-0011,Ear Protection,Safety,WH-A02,345,345,752.9,259750.5,259750.5,0,0,1.0,169,Accurate,No Variance,Pending,2026-02-10
+SKU-0012,Adhesive,Consumables,WH-A02,391,391,229.23,89628.93,89628.93,0,0,1.0,154,Accurate,No Variance,Pending,2026-08-22
+SKU-0013,Safety Vest,Safety,WH-B01,122,107,437.02,53316.44,46761.14,-15,15,0.877,28,Shortage,Counting Error,Completed,2026-02-13
+SKU-0014,Seal,Mechanical,WH-C01,42,42,509.74,21409.08,21409.08,0,0,1.0,124,Accurate,No Variance,Completed,2026-05-26
+SKU-0015,Connector,Electrical,WH-C02,463,463,232.67,107726.21,107726.21,0,0,1.0,169,Accurate,No Variance,Completed,2026-02-02
+SKU-0016,Label Roll,Consumables,WH-A02,242,242,616.0,149072.0,149072.0,0,0,1.0,72,Accurate,No Variance,Completed,2026-05-14
+SKU-0017,Relay,Electrical,WH-C02,269,269,136.69,36769.61,36769.61,0,0,1.0,46,Accurate,No Variance,Completed,2026-06-07
+SKU-0018,Label Roll,Consumables,WH-A01,67,72,209.62,14044.54,15092.64,5,5,0.9254,66,Excess,Unidentified Movement,Completed,2026-01-26
+SKU-0019,Torque Wrench,Tools,WH-C01,402,402,563.51,226531.02,226531.02,0,0,1.0,145,Accurate,No Variance,Completed,2026-03-13
+SKU-0020,Mask,Safety,WH-B02,118,113,608.3,71779.4,68737.9,-5,5,0.9576,107,Shortage,Transaction Delay,Pending,2026-08-23
+SKU-0021,Safety Vest,Safety,WH-A01,136,136,292.67,39803.12,39803.12,0,0,1.0,155,Accurate,No Variance,Completed,2026-06-04
+SKU-0022,Bearing,Mechanical,WH-A01,372,372,200.77,74686.44,74686.44,0,0,1.0,13,Accurate,No Variance,Completed,2026-01-23
+SKU-0023,Safety Glasses,Safety,WH-B01,352,352,462.03,162634.56,162634.56,0,0,1.0,151,Accurate,No Variance,Pending,2026-03-08
+SKU-0024,Gauge,Tools,WH-A02,58,58,370.95,21515.1,21515.1,0,0,1.0,113,Accurate,No Variance,Pending,2026-05-04
+SKU-0025,Connector,Electrical,WH-A01,216,214,217.37,46951.92,46517.18,-2,2,0.9907,53,Shortage,Unidentified Movement,Pending,2026-02-09
+SKU-0026,Caliper,Tools,WH-B01,246,246,785.39,193205.94,193205.94,0,0,1.0,118,Accurate,No Variance,Completed,2026-01-17
+SKU-0027,Gloves,Safety,WH-A01,484,483,148.03,71646.52,71498.49,-1,1,0.9979,129,Shortage,Damaged Stock,Completed,2026-08-14
+SKU-0028,Torque Wrench,Tools,WH-A02,204,204,336.74,68694.96,68694.96,0,0,1.0,121,Accurate,No Variance,Completed,2026-04-23
+SKU-0029,Safety Vest,Safety,WH-A02,107,107,823.65,88130.55,88130.55,0,0,1.0,153,Accurate,No Variance,Completed,2026-07-15
+SKU-0030,Cleaning Kit,Consumables,WH-A01,309,309,782.12,241675.08,241675.08,0,0,1.0,140,Accurate,No Variance,Completed,2026-01-19
+SKU-0031,Gloves,Safety,WH-A02,45,45,576.53,25943.85,25943.85,0,0,1.0,65,Accurate,No Variance,Pending,2026-02-04
+SKU-0032,Safety Glasses,Safety,WH-C01,314,314,77.03,24187.42,24187.42,0,0,1.0,173,Accurate,No Variance,Completed,2026-03-12
+SKU-0033,Fastener Kit,Mechanical,WH-A02,145,145,573.56,83166.2,83166.2,0,0,1.0,81,Accurate,No Variance,Pending,2026-03-26
+SKU-0034,Connector,Electrical,WH-B02,328,303,69.69,22858.32,21116.07,-25,25,0.9238,59,Shortage,Unidentified Movement,Completed,2026-02-07
+SKU-0035,Cleaning Kit,Consumables,WH-A02,199,199,376.95,75013.05,75013.05,0,0,1.0,144,Accurate,No Variance,Completed,2026-06-10
+SKU-0036,Gloves,Safety,WH-C02,428,428,792.54,339207.12,339207.12,0,0,1.0,31,Accurate,No Variance,Completed,2026-03-13
+SKU-0037,Connector,Electrical,WH-C02,293,293,245.24,71855.32,71855.32,0,0,1.0,58,Accurate,No Variance,Completed,2026-02-26
+SKU-0038,Packaging Kit,Consumables,WH-B02,138,130,85.72,11829.36,11143.6,-8,8,0.942,113,Shortage,Transaction Delay,Completed,2026-01-05
+SKU-0039,Adhesive,Consumables,WH-C02,144,144,380.03,54724.32,54724.32,0,0,1.0,114,Accurate,No Variance,Completed,2026-02-02
+SKU-0040,Cable Assembly,Electrical,WH-C01,28,27,369.88,10356.64,9986.76,-1,1,0.9643,15,Shortage,Transaction Delay,Completed,2026-08-23
+SKU-0041,Relay,Electrical,WH-A02,359,359,94.55,33943.45,33943.45,0,0,1.0,148,Accurate,No Variance,Pending,2026-06-12
+SKU-0042,Bracket,Mechanical,WH-A02,419,421,28.87,12096.53,12154.27,2,2,0.9952,90,Excess,Damaged Stock,Completed,2026-03-14
+SKU-0043,Bearing,Mechanical,WH-B02,456,456,404.32,184369.92,184369.92,0,0,1.0,56,Accurate,No Variance,Pending,2026-04-04
+SKU-0044,Adhesive,Consumables,WH-A02,22,22,343.51,7557.22,7557.22,0,0,1.0,76,Accurate,No Variance,Completed,2026-07-21
+SKU-0045,Protective Film,Consumables,WH-C02,270,270,834.13,225215.1,225215.1,0,0,1.0,142,Accurate,No Variance,Completed,2026-01-12
+SKU-0046,Relay,Electrical,WH-A02,307,322,40.21,12344.47,12947.62,15,15,0.9511,157,Excess,Damaged Stock,Completed,2026-07-10
+SKU-0047,Label Roll,Consumables,WH-C01,271,271,765.38,207417.98,207417.98,0,0,1.0,53,Accurate,No Variance,Completed,2026-01-16
+SKU-0048,Torque Wrench,Tools,WH-C01,483,482,314.67,151985.61,151670.94,-1,1,0.9979,22,Shortage,Transaction Delay,Completed,2026-06-23
+SKU-0049,Relay,Electrical,WH-C01,168,168,282.65,47485.2,47485.2,0,0,1.0,80,Accurate,No Variance,Completed,2026-02-23
+SKU-0050,Gauge,Tools,WH-C02,393,398,349.92,137518.56,139268.16,5,5,0.9873,5,Excess,Transaction Delay,Completed,2026-02-27
+SKU-0051,Test Lead,Tools,WH-C01,345,345,379.98,131093.1,131093.1,0,0,1.0,177,Accurate,No Variance,Completed,2026-05-15
+SKU-0052,Caliper,Tools,WH-C02,53,53,566.96,30048.88,30048.88,0,0,1.0,163,Accurate,No Variance,Completed,2026-01-28
+SKU-0053,Fastener Kit,Mechanical,WH-A02,422,422,28.57,12056.54,12056.54,0,0,1.0,67,Accurate,No Variance,Pending,2026-06-10
+SKU-0054,Sensor,Electrical,WH-B02,463,463,171.71,79501.73,79501.73,0,0,1.0,103,Accurate,No Variance,Pending,2026-04-17
+SKU-0055,Bracket,Mechanical,WH-C02,362,362,640.31,231792.22,231792.22,0,0,1.0,32,Accurate,No Variance,Pending,2026-03-02
+SKU-0056,Gear,Mechanical,WH-B02,35,35,780.51,27317.85,27317.85,0,0,1.0,36,Accurate,No Variance,Pending,2026-02-08
+SKU-0057,Test Lead,Tools,WH-C01,314,314,643.92,202190.88,202190.88,0,0,1.0,118,Accurate,No Variance,Pending,2026-08-05
+SKU-0058,Safety Vest,Safety,WH-A02,390,392,226.24,88233.6,88686.08,2,2,0.9949,68,Excess,Transaction Delay,Pending,2026-06-14
+SKU-0059,Fastener Kit,Mechanical,WH-B02,49,49,205.44,10066.56,10066.56,0,0,1.0,90,Accurate,No Variance,Completed,2026-08-21
+SKU-0060,Gloves,Safety,WH-A02,87,87,592.31,51530.97,51530.97,0,0,1.0,59,Accurate,No Variance,Completed,2026-04-21
+SKU-0061,Hand Tool Set,Tools,WH-C01,248,248,182.15,45173.2,45173.2,0,0,1.0,112,Accurate,No Variance,Pending,2026-07-21
+SKU-0062,Gloves,Safety,WH-C01,204,204,801.79,163565.16,163565.16,0,0,1.0,81,Accurate,No Variance,Pending,2026-08-11
+SKU-0063,Test Lead,Tools,WH-C02,386,386,515.94,199152.84,199152.84,0,0,1.0,61,Accurate,No Variance,Pending,2026-03-02
+SKU-0064,Label Roll,Consumables,WH-B02,24,24,571.19,13708.56,13708.56,0,0,1.0,108,Accurate,No Variance,Completed,2026-08-08
+SKU-0065,Caliper,Tools,WH-C01,283,283,339.77,96154.91,96154.91,0,0,1.0,149,Accurate,No Variance,Completed,2026-01-26
+SKU-0066,Caliper,Tools,WH-B02,103,103,327.21,33702.63,33702.63,0,0,1.0,59,Accurate,No Variance,Pending,2026-03-29
+SKU-0067,Label Roll,Consumables,WH-B01,395,403,220.41,87061.95,88825.23,8,8,0.9797,25,Excess,Damaged Stock,Completed,2026-07-15
+SKU-0068,Gloves,Safety,WH-B01,124,124,665.8,82559.2,82559.2,0,0,1.0,171,Accurate,No Variance,Completed,2026-07-17
+SKU-0069,Cable Assembly,Electrical,WH-A02,439,439,136.31,59840.09,59840.09,0,0,1.0,37,Accurate,No Variance,Pending,2026-06-25
+SKU-0070,Terminal Block,Electrical,WH-A02,248,248,653.73,162125.04,162125.04,0,0,1.0,47,Accurate,No Variance,Completed,2026-07-23
+SKU-0071,Fastener Kit,Mechanical,WH-A01,306,306,270.67,82825.02,82825.02,0,0,1.0,178,Accurate,No Variance,Pending,2026-04-16
+SKU-0072,Bearing,Mechanical,WH-C01,363,362,93.8,34049.4,33955.6,-1,1,0.9972,82,Shortage,Unidentified Movement,Completed,2026-07-27
+SKU-0073,Gloves,Safety,WH-B01,282,282,320.02,90245.64,90245.64,0,0,1.0,134,Accurate,No Variance,Completed,2026-01-08
+SKU-0074,Gauge,Tools,WH-A01,231,256,603.55,139420.05,154508.8,25,25,0.8918,116,Excess,Location Error,Completed,2026-06-11
+SKU-0075,Safety Vest,Safety,WH-B02,233,234,279.38,65095.54,65374.92,1,1,0.9957,67,Excess,Counting Error,Completed,2026-08-18
+SKU-0076,Caliper,Tools,WH-B02,301,301,327.11,98460.11,98460.11,0,0,1.0,12,Accurate,No Variance,Pending,2026-08-10
+SKU-0077,Adhesive,Consumables,WH-B02,118,118,225.53,26612.54,26612.54,0,0,1.0,76,Accurate,No Variance,Completed,2026-05-27
+SKU-0078,Terminal Block,Electrical,WH-A02,53,53,350.21,18561.13,18561.13,0,0,1.0,147,Accurate,No Variance,Completed,2026-06-30
+SKU-0079,Gauge,Tools,WH-B02,415,415,255.75,106136.25,106136.25,0,0,1.0,108,Accurate,No Variance,Completed,2026-03-24
+SKU-0080,Ear Protection,Safety,WH-B02,293,293,366.27,107317.11,107317.11,0,0,1.0,145,Accurate,No Variance,Completed,2026-04-05
+SKU-0081,Hand Tool Set,Tools,WH-B01,138,138,615.32,84914.16,84914.16,0,0,1.0,85,Accurate,No Variance,Completed,2026-07-14
+SKU-0082,Safety Glasses,Safety,WH-A02,120,121,618.1,74172.0,74790.1,1,1,0.9917,139,Excess,Unidentified Movement,Completed,2026-01-30
+SKU-0083,Fastener Kit,Mechanical,WH-A02,194,194,19.91,3862.54,3862.54,0,0,1.0,141,Accurate,No Variance,Completed,2026-03-16
+SKU-0084,Connector,Electrical,WH-C01,159,159,114.33,18178.47,18178.47,0,0,1.0,130,Accurate,No Variance,Completed,2026-08-16
+SKU-0085,Terminal Block,Electrical,WH-B01,250,250,294.87,73717.5,73717.5,0,0,1.0,18,Accurate,No Variance,Completed,2026-08-13
+SKU-0086,Torque Wrench,Tools,WH-A01,215,215,493.85,106177.75,106177.75,0,0,1.0,180,Accurate,No Variance,Completed,2026-02-12
+SKU-0087,Gear,Mechanical,WH-B01,53,28,477.9,25328.7,13381.2,-25,25,0.5283,111,Shortage,Unidentified Movement,Completed,2026-07-22
+SKU-0088,Safety Vest,Safety,WH-B02,475,475,732.26,347823.5,347823.5,0,0,1.0,114,Accurate,No Variance,Completed,2026-05-30
+SKU-0089,Gloves,Safety,WH-C01,388,388,650.22,252285.36,252285.36,0,0,1.0,165,Accurate,No Variance,Completed,2026-03-13
+SKU-0090,Cable Assembly,Electrical,WH-A02,98,98,139.8,13700.4,13700.4,0,0,1.0,109,Accurate,No Variance,Pending,2026-06-30
+SKU-0091,Safety Vest,Safety,WH-B01,26,26,603.26,15684.76,15684.76,0,0,1.0,121,Accurate,No Variance,Completed,2026-06-29
+SKU-0092,Fastener Kit,Mechanical,WH-C02,311,311,794.15,246980.65,246980.65,0,0,1.0,113,Accurate,No Variance,Completed,2026-05-24
+SKU-0093,Bracket,Mechanical,WH-B01,433,433,58.22,25209.26,25209.26,0,0,1.0,83,Accurate,No Variance,Completed,2026-04-27
+SKU-0094,Sensor,Electrical,WH-C02,165,165,801.73,132285.45,132285.45,0,0,1.0,133,Accurate,No Variance,Pending,2026-04-27
+SKU-0095,Terminal Block,Electrical,WH-A01,465,465,279.39,129916.35,129916.35,0,0,1.0,69,Accurate,No Variance,Completed,2026-01-28
+SKU-0096,Gear,Mechanical,WH-C01,496,496,651.93,323357.28,323357.28,0,0,1.0,73,Accurate,No Variance,Completed,2026-07-19
+SKU-0097,Seal,Mechanical,WH-C01,343,343,242.21,83078.03,83078.03,0,0,1.0,154,Accurate,No Variance,Pending,2026-06-16
+SKU-0098,Torque Wrench,Tools,WH-B02,188,188,278.33,52326.04,52326.04,0,0,1.0,31,Accurate,No Variance,Completed,2026-03-30
+SKU-0099,Gauge,Tools,WH-B01,349,341,390.96,136445.04,133317.36,-8,8,0.9771,85,Shortage,Transaction Delay,Completed,2026-02-03
+SKU-0100,Test Lead,Tools,WH-A01,346,348,355.95,123158.7,123870.6,2,2,0.9942,53,Excess,Unidentified Movement,Completed,2026-06-13
+SKU-0101,Gauge,Tools,WH-A01,114,114,118.31,13487.34,13487.34,0,0,1.0,78,Accurate,No Variance,Pending,2026-08-18
+SKU-0102,Torque Wrench,Tools,WH-A01,332,332,209.49,69550.68,69550.68,0,0,1.0,45,Accurate,No Variance,Completed,2026-05-26
+SKU-0103,Terminal Block,Electrical,WH-B02,57,57,716.46,40838.22,40838.22,0,0,1.0,34,Accurate,No Variance,Pending,2026-02-04
+SKU-0104,Seal,Mechanical,WH-C02,159,159,238.22,37876.98,37876.98,0,0,1.0,128,Accurate,No Variance,Pending,2026-03-08
+SKU-0105,Test Lead,Tools,WH-A02,206,206,512.68,105612.08,105612.08,0,0,1.0,39,Accurate,No Variance,Completed,2026-03-16
+SKU-0106,Hand Tool Set,Tools,WH-C01,146,147,619.33,90422.18,91041.51,1,1,0.9932,155,Excess,Unidentified Movement,Pending,2026-08-14
+SKU-0107,Seal,Mechanical,WH-C01,257,257,472.71,121486.47,121486.47,0,0,1.0,144,Accurate,No Variance,Pending,2026-05-01
+SKU-0108,Adhesive,Consumables,WH-C02,132,132,204.66,27015.12,27015.12,0,0,1.0,110,Accurate,No Variance,Completed,2026-03-27
+SKU-0109,Gauge,Tools,WH-B02,349,348,425.07,148349.43,147924.36,-1,1,0.9971,14,Shortage,Location Error,Completed,2026-08-15
+SKU-0110,Sensor,Electrical,WH-A01,279,271,616.3,171947.7,167017.3,-8,8,0.9713,109,Shortage,Location Error,Completed,2026-05-05
+SKU-0111,Protective Film,Consumables,WH-C01,364,364,75.63,27529.32,27529.32,0,0,1.0,89,Accurate,No Variance,Pending,2026-03-27
+SKU-0112,Test Lead,Tools,WH-A01,326,326,539.44,175857.44,175857.44,0,0,1.0,78,Accurate,No Variance,Completed,2026-07-15
+SKU-0113,Sensor,Electrical,WH-A01,399,399,742.71,296341.29,296341.29,0,0,1.0,118,Accurate,No Variance,Completed,2026-07-01
+SKU-0114,Cleaning Kit,Consumables,WH-A01,176,177,309.83,54530.08,54839.91,1,1,0.9943,115,Excess,Location Error,Completed,2026-05-20
+SKU-0115,Test Lead,Tools,WH-C02,415,415,155.41,64495.15,64495.15,0,0,1.0,161,Accurate,No Variance,Pending,2026-06-12
+SKU-0116,Seal,Mechanical,WH-C01,83,83,545.12,45244.96,45244.96,0,0,1.0,122,Accurate,No Variance,Completed,2026-06-24
+SKU-0117,Sensor,Electrical,WH-B01,356,356,70.19,24987.64,24987.64,0,0,1.0,93,Accurate,No Variance,Completed,2026-06-17
+SKU-0118,Hand Tool Set,Tools,WH-B02,442,442,849.47,375465.74,375465.74,0,0,1.0,128,Accurate,No Variance,Completed,2026-03-06
+SKU-0119,Test Lead,Tools,WH-B01,304,304,596.79,181424.16,181424.16,0,0,1.0,10,Accurate,No Variance,Pending,2026-03-16
+SKU-0120,Terminal Block,Electrical,WH-C02,408,406,774.74,316093.92,314544.44,-2,2,0.9951,132,Shortage,Transaction Delay,Completed,2026-06-09
